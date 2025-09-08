@@ -3,7 +3,8 @@ from . import models
 
 
 def home(request):
-    return render(request,"core/home.html", {"actual_endpoint": "inicio"})
+    productos_top = models.Producto.objects.order_by('-precio')[:3]
+    return render(request,"core/home.html", {"actual_endpoint": "inicio", "productos": productos_top})
 
 def faq(request):
     return render(request,"core/faq.html", {"actual_endpoint": "faq"})
