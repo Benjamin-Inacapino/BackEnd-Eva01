@@ -1,0 +1,158 @@
+{% extends 'core/base.html' %}
+{% block content  %}
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h1 class="text-center mb-5">Preguntas Frecuentes</h1>
+      <p class="text-center text-muted mb-5">Encuentra respuestas a las preguntas más comunes sobre TechCorp y nuestros productos electrónicos.</p>
+      
+      <div class="accordion" id="faqAccordion">
+        
+        <!-- Pregunta 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              ¿Cuál es el tiempo de entrega de los productos?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              El tiempo de entrega varía según tu ubicación. En la ciudad principal es de 24-48 horas, en ciudades cercanas de 2-4 días laborales, y en zonas rurales puede tomar hasta 7 días laborales. Ofrecemos envío express disponible para entregas el mismo día en la ciudad principal.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              ¿Qué garantía tienen los productos?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Todos nuestros productos incluyen garantía del fabricante. Además, ofrecemos garantía extendida TechCorp: 1 año adicional para smartphones y tablets, 2 años para computadoras y laptops, y 3 años para televisores. También incluimos servicio técnico gratuito durante el primer año.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              ¿Puedo devolver un producto si no me gusta?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí, tienes 30 días para devolver cualquier producto en perfecto estado con su empaque original. Los productos deben estar sin uso y con todos sus accesorios. El reembolso se procesa en 5-7 días laborales. Los gastos de envío de devolución corren por cuenta del cliente, excepto si el producto tiene defectos de fábrica.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              ¿Ofrecen financiamiento para compras grandes?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              ¡Por supuesto! Ofrecemos planes de financiamiento flexibles: 3, 6, 12 y 24 meses sin intereses para compras superiores a $500. También aceptamos tarjetas de crédito de todos los bancos y trabajamos con financieras como Credimás y FinanTech para aprobar créditos rápidos en línea.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta ESPECIAL -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              🤔 ¿Qué nota nos pondrá el profe?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Un 7.0 bien merecido. 👍
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              ¿Tienen tiendas físicas donde pueda ver los productos?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí, tenemos 15 sucursales distribuidas en todo el país. Puedes encontrar nuestras ubicaciones en la sección "Sucursales" de nuestra página web. En nuestras tiendas puedes probar los productos, recibir asesoría personalizada de nuestros expertos y realizar compras con retiro inmediato.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              ¿Qué métodos de pago aceptan?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Aceptamos múltiples formas de pago: efectivo, tarjetas de débito y crédito (Visa, Mastercard, American Express), transferencias bancarias, PayPal, Apple Pay, Google Pay, y criptomonedas (Bitcoin, Ethereum). También puedes pagar en cuotas sin intereses con tu tarjeta de crédito.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              ¿Realizan instalación y configuración de equipos?
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí, nuestro equipo técnico especializado puede instalar y configurar tus equipos. Ofrecemos instalación gratuita para Smart TVs y sistemas de audio en compras superiores a $1000. Para computadoras, configuramos el sistema operativo, instalamos software básico y transferimos datos desde tu equipo anterior.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+              ¿Tienen programa de fidelización para clientes frecuentes?
+            </button>
+          </h2>
+          <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              ¡Absolutamente! Nuestro programa "TechClub" te permite acumular puntos con cada compra. Por cada $100 gastos, obtienes 10 puntos que puedes canjear por descuentos, productos gratuitos o servicios premium. Los miembros VIP (más de $5000 en compras anuales) reciben envío gratuito de por vida y descuentos exclusivos.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+              ¿Cómo puedo contactar al servicio técnico?
+            </button>
+          </h2>
+          <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Nuestro servicio técnico está disponible 24/7 a través de múltiples canales: chat en vivo en nuestra página web, WhatsApp al +56 9 4221 6822, email a soporte@techcorp.cl, o llamando al 800-TECH-CORP. También ofrecemos soporte remoto para problemas de software y agendamiento de visitas técnicas a domicilio.
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{% endblock %}

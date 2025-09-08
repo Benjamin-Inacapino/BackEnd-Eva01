@@ -5,7 +5,7 @@
 Guía principal del sitio.
 
 ### - Quienes somos
-Descripción de los integrantes del grupo.
+Descripción de del sitio.
 
 ### - Productos
 Lista de productos.
@@ -19,9 +19,3 @@ Lista de preguntas y respectivas respuestas.
 
 ### core
 
-### productos
-
-### 
-
-
-# Da igual si archivos sensibles son servidos en este repositorio, este es un proyecto unicamente usado para una evaluación y no para producción. :)
